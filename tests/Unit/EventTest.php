@@ -11,7 +11,7 @@ class EventTest extends TestCase {
 	public function test_can_get_event_name() {
 		$event = new EventStub();
 
-		$this->assertEquals('EventStub', $event->getName());
+		$this->assertEquals('UserSignedUp', $event->getName());
 	}
 
 	public function test_it_defaults_to_an_event_name_to_the_class_name() {
